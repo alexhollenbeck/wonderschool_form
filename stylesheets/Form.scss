@@ -36,6 +36,10 @@
     font-size: 14px;
     color: $gray5;
 
+    &[data-error-showing='true'] {
+      border-color: $error-orange;
+    }
+
     &:focus {
       outline: none;
       border-color: $blue1;

@@ -47,6 +47,8 @@
     border: 1px solid #efefef;
     font-size: 14px;
     color: #2f2f2f; }
+    .Form__input[data-error-showing='true'] {
+      border-color: #fb8173; }
     .Form__input:focus {
       outline: none;
       border-color: #3e81c2; }

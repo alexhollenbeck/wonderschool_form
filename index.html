@@ -10,20 +10,20 @@
       <form class="Form js-form">
         <h1 class="Form__title">Create an account</h1>
         <label class="Form__label" for="name">Name</label>
-        <input class="Form__input" id="name" name="name" type="text" placeholder="First Last"/>
+        <input class="Form__input" id="name" name="name" type="text" placeholder="First Last" data-error-showing="false"/>
         <p class="Form__error" data-error-for="name" data-error-showing="false"></p>
 
         <label class="Form__label" for="email">Email</label>
-        <input class="Form__input" id="email" name="email" type="text" placeholder="me@example.com"/>
+        <input class="Form__input" id="email" name="email" type="text" placeholder="me@example.com" data-error-showing="false"/>
         <p class="Form__error" data-error-for="email" data-error-showing="false"></p>
 
         <label class="Form__label" for="birthday">Birthday</label>
         <!-- Not using type="date" because it attaches an ugly date picker -->
-        <input class="Form__input" id="birthday" name="birthday" type="text" placeholder="MM/DD/YYYY"/>
+        <input class="Form__input" id="birthday" name="birthday" type="text" placeholder="MM/DD/YYYY" data-error-showing="false"/>
         <p class="Form__error" data-error-for="birthday" data-error-showing="false"></p>
 
         <label class="Form__label" for="password">Password</label>
-        <input class="Form__input" id="password" name="password" type="password"/>
+        <input class="Form__input" id="password" name="password" type="password" data-error-showing="false"/>
         <p class="Form__error" data-error-for="password" data-error-showing="false"></p>
 
         <button class="Button Button--primary Form__submitButton" type="submit">Create Account</button>
