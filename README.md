@@ -17,7 +17,7 @@ The form should:
 The form should be initialized with `form([selector])` where [selector] is any CSS selector
 
 # My solution
-To solve this challenge, I created an npm module called alh_form which handles the form validation. I then created an instance of the form in this repo which pulls in alh_form.
+To solve this challenge, I created an npm module called alh_form which handles the form validation. I then created an instance of the form in this repo which pulls in alh_form. For an explanation of my CSS methodology, see http://getbem.com/.
 
 # How to view the solution
 Download this repo and open index.html in your browser.
