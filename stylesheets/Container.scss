@@ -1,0 +1,12 @@
+.Container {
+	margin: auto;
+	width: 320px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	border: 1px solid $gray2;
+	border-radius: 3px;
+	background-color: $gray0;
+	padding: 45px;
+	font-family: sans-serif;
+}

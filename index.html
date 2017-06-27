@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Wonderschool | Create an account</title> 
+    <script src="javascripts/bundle.js" async></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/out.css" />
+  </head>
+
+  <body>
+    <div class="Container">
+      <form class="Form js-form">
+        <h1 class="Form__title">Create an account</h1>
+        <label class="Form__label" for="name">Name</label>
+        <input class="Form__input" id="name" name="name" type="text" placeholder="First Last"/>
+        <p class="Form__error" data-error-for="name" data-error-showing="false"></p>
+
+        <label class="Form__label" for="email">Email</label>
+        <input class="Form__input" id="email" name="email" type="text" placeholder="me@example.com"/>
+        <p class="Form__error" data-error-for="email" data-error-showing="false"></p>
+
+        <label class="Form__label" for="birthday">Birthday</label>
+        <!-- Not using type="date" because it attaches an ugly date picker -->
+        <input class="Form__input" id="birthday" name="birthday" type="text" placeholder="MM/DD/YYYY"/>
+        <p class="Form__error" data-error-for="birthday" data-error-showing="false"></p>
+
+        <label class="Form__label" for="password">Password</label>
+        <input class="Form__input" id="password" name="password" type="password"/>
+        <p class="Form__error" data-error-for="password" data-error-showing="false"></p>
+
+        <button class="Button Button--primary Form__submitButton" type="submit">Create Account</button>
+      </form>
+    </div>
+  </body>
+</html>
