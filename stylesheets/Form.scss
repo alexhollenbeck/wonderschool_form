@@ -1,47 +1,47 @@
 .Form {
-	background-color: $white;
-	padding: 20px;
+  background-color: $white;
+  padding: 20px;
 
-	&__title {
-		margin: 0;
-		padding: 10px 0;
-		font-size: 16px;
-		border-bottom: 1px solid $gray0;
-		color: $gray5;
-	}
+  &__title {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    border-bottom: 1px solid $gray0;
+    color: $gray5;
+  }
 
-	&__label,
-	&__input {
-		width: 100%;
-		display: block;
-		color: $gray4;
-	}
+  &__label,
+  &__input {
+    width: 100%;
+    display: block;
+    color: $gray4;
+  }
 
-	&__label {
-		margin: 10px 0;
-		text-transform: uppercase;
-		font-size: 12px;
-	}
+  &__label {
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
 
-	&__input,
-	&__error {
-		height: 45px;
-		padding: 14px;
-		border-radius: 3px;
-		box-sizing: border-box;
-	}
+  &__input,
+  &__error {
+    height: 45px;
+    padding: 14px;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
 
-	&__input {
-		border: 1px solid $gray1;
-		font-size: 14px;
-		color: $gray5;
+  &__input {
+    border: 1px solid $gray1;
+    font-size: 14px;
+    color: $gray5;
 
-		&:focus {
-			outline: none;
-			border-color: $blue1;
-		}
+    &:focus {
+      outline: none;
+      border-color: $blue1;
+    }
 
-		// Make input placeholder look right on all browsers
+    // Make input placeholder look right on all browsers
 
     // safari, chrome, opera
     &::-webkit-input-placeholder {
@@ -64,26 +64,26 @@
       height: 45px;
       line-height: 45px;
     }
-	}
+  }
 
-	&__error {
-		background-color: $error-orange;
-		color: $faded-white;
-		margin-top: 10px;
-		font-weight: bold;
+  &__error {
+    background-color: $error-orange;
+    color: $faded-white;
+    margin-top: 10px;
+    font-weight: bold;
 
-		&[data-error-showing='false'] {
-			display: none;
-		}
-	}
+    &[data-error-showing='false'] {
+      display: none;
+    }
+  }
 
-	&__submitButton {
-		display: block;
-		margin: 10px auto 0 auto;
-		cursor: pointer;
+  &__submitButton {
+    display: block;
+    margin: 10px auto 0 auto;
+    cursor: pointer;
 
-		&:focus {
-			outline: none;
-		}
-	}	
+    &:focus {
+      outline: none;
+    }
+  } 
 }
